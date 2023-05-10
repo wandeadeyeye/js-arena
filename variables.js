@@ -1,6 +1,6 @@
 // VARIABLES IN JAVASCRPIT
 
-// var
+// VAR
 
 var number = 20;
 // console.log(number);
@@ -12,7 +12,7 @@ var number = 10;
 number = 15;
 // console.log(number);
 
-// let
+// LET
 
 let x = 20;
 // console.log(x);
@@ -23,7 +23,8 @@ x = 10;
 x = 12;
 // console.log(x);
 
-// const
+// CONST
 
 const y = 19;
 console.log(y);
+document.write(y);
