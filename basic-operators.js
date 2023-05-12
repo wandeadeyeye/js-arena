@@ -27,12 +27,13 @@ console.log(isCloser);
 
 var x = 10;
 var y = 15;
+var total;
 
-var total = x < y || y != '15'
+total = x < y || y != '15'
 console.log(total);
 
-var total = x < y && y != '15'
+total = x < y && y != '15'
 console.log(total);
 
-var total = x > y || !(x < y && !(x != '10' && y === '15'))
+total = x > y || !(x < y && !(x != '10' && y === '15'))
 console.log(total);
