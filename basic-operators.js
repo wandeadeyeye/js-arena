@@ -25,7 +25,7 @@ console.log(isCloser);
 
 /////// boolean logical operators
 
-var x = 10;
+var x = 20;
 var y = 15;
 var total;
 
@@ -36,4 +36,13 @@ total = x < y && y != '15'
 console.log(total);
 
 total = x > y || !(x < y && !(x != '10' && y === '15'))
+console.log(total);
+
+total = x > y;
+console.log(total);
+
+total = x < y || !(x == 8 && (x > y || x == '20'));
+console.log(total);
+
+total = ((x == '20' || y <= x) && (y === 15 && x >= y))
 console.log(total);
