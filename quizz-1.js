@@ -17,3 +17,16 @@ if (alexGrade > saraGrade && alexGrade > nancyGrade) {
 } else {
    console.log('Nancy has the highest grade of them all', nancyGrade); 
 }
+
+
+switch (true) {
+    case (alexGrade > saraGrade && alexGrade > nancyGrade):
+        console.log('Alex has the highest grade of them all', alexGrade);
+        break;
+    case (saraGrade <= alexGrade && saraGrade <= nancyGrade):
+        console.log('Sara has the highest grade of them all', saraGrade);
+        break;
+    default:
+        console.log('Nancy has the highest grade of them all', nancyGrade);
+        break;
+}
