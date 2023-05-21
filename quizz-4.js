@@ -23,12 +23,12 @@ console.log(number);
 /////////////// 3
 
 var addition = function (number) {
-    var num = 0;
+    var int = 0;
     for (var i = 1; i <= number; i++) {
-    num = num + i;
+        int = int + i;
     }
-    return num;
+    return int;
 }
 
-var result =addition(5);
-console.log(result);
+var final = addition(5);
+console.log(final);
