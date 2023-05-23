@@ -49,3 +49,16 @@ var food = ['rice','beans','yam','egg','veggies','pasta','noddles','spaggs']
 console.log(food);
 var favFood = food.slice(2, 6);
 console.log(favFood);
+
+
+//////////////////////// ARRAY ITERATION ///////////////////////////
+
+var food = ['rice','beans','yam','egg','veggies','pasta','noddles','spaggs'];
+
+// for (var i =0; i < food.length; i++) {
+//     console.log(food[i]);
+// }
+
+food.forEach(function(foodlist){
+    console.log(foodlist);
+});
