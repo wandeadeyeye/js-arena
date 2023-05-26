@@ -64,3 +64,41 @@ var studentID = {
 
 console.log(studentID.bestFriend.birthYear);
 console.log(studentID.friendList[3]);
+
+
+///////////////// HOW TO ADD PROPERTY TO OBJECTS
+
+var colors = {};
+
+colors.yellow = {code: 123};
+console.log(colors.yellow);
+
+colors.black = {code: [3, 5, 1]};
+console.log(colors.black.code[2]);
+
+var blogPosts = [
+    {
+        Name: 'food',
+        comment: 'i love good food'
+    },
+    {
+        Name: 'game',
+        comment: 'i am not a gamer'
+    },
+    {
+        Name: 'cars',
+        comment: 'i love a nice car collection',
+        type: ['volvo', 'supra', 'jeep', {
+            maker: 'mercedes',
+            year: 2022,
+            class: 'c',
+            color: 'black',
+            condition: 'new'
+        }]
+    }
+];
+
+console.log(blogPosts[1]);
+console.log(blogPosts[2].comment);
+console.log(blogPosts[2].type[0]);
+console.log(blogPosts[2].type[3].condition);
