@@ -20,8 +20,9 @@ var universities = [
 
 universities.forEach(function (university) {
     if (university.hasGone === true) {
-        console.log(university.Name + university.year);
+        console.log(university.Name + ' ' + university.year);
     } else {
         console.log(university.Name);
     }
 });
+
