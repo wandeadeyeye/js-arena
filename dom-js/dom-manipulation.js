@@ -68,3 +68,32 @@ var selectToManipulate = document.querySelector('.newclass')
 selectToManipulate.classList.toggle('addPropeties')
 selectToManipulate.classList.toggle('addPropeties')
 selectToManipulate.classList.toggle('addPropeties')
+
+
+/////////////////////////// INNER HTML and TEXTCONTENT ////////////////////////////////////////////
+
+
+var paragraph1 = document.querySelector('#paragraph1')
+
+console.log(paragraph1.textContent);
+
+// paragraph1.textContent = 'Javascript is really an intersting programming language';
+
+// console.log(paragraph1.textContent);
+
+paragraph1.innerHTML = 'Javascript is the <strong>best</strong>';
+console.log(paragraph1.textContent);
+
+
+//////////////////////// MANIPULATE ATTRIBUTES /////////////////////
+
+
+var link = document.querySelector('a')
+
+console.log(link.getAttribute('href'));
+
+link.setAttribute('href', 'http://www.facebook.com')
+
+console.log(link.getAttribute('href'));
+
+link.textContent = 'go to facebook';
