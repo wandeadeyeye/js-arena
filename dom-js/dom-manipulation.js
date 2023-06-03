@@ -88,6 +88,7 @@ console.log(paragraph1.textContent);
 //////////////////////// MANIPULATE ATTRIBUTES /////////////////////
 
 
+
 var link = document.querySelector('a')
 
 console.log(link.getAttribute('href'));
