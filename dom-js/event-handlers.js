@@ -1,5 +1,6 @@
 /////////////////////////// EVENT HANDLERS /////////////////////////
 
+
 var button = document.querySelector('#btn1');
 var title = document.querySelector('.title');
 
