@@ -20,7 +20,7 @@ unorderedList.addEventListener('click', function(){
 ////////////////////// CALLBACK FUNCTION ///////////////////////
 
 
-var paragraph = document.querySelector('#paragraph1');
+var paragraph = document.querySelector('#paragraph1'); //select paragraph
 
 function toggleBackground() {
     paragraph.classList.toggle('toggleBackground');
