@@ -68,6 +68,8 @@ var selectToManipulate = document.querySelector('.newclass')
 selectToManipulate.classList.toggle('addPropeties')
 selectToManipulate.classList.toggle('addPropeties')
 selectToManipulate.classList.toggle('addPropeties')
+selectToManipulate.classList.toggle('addPropeties')
+selectToManipulate.classList.toggle('addPropeties')
 
 
 /////////////////////////// INNER HTML and TEXTCONTENT ////////////////////////////////////////////
