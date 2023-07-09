@@ -99,4 +99,3 @@ link.setAttribute('href', 'http://www.facebook.com')
 console.log(link.getAttribute('href'));
 
 link.textContent = 'go to facebook';
-
