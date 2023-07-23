@@ -27,3 +27,4 @@ function toggleBackground() {
 };
 
 paragraph.addEventListener('click', toggleBackground);
+
