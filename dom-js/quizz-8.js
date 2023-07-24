@@ -7,4 +7,3 @@ for(var i = 0; i < listItems.length; i++) {
         this.style.color = 'white';
     }
 )}
-
