@@ -46,3 +46,4 @@ console.log(total);
 
 total = ((x == '20' || y <= x) && (y === 15 && x >= y))
 console.log(total);
+
