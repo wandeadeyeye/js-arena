@@ -40,3 +40,4 @@ function cafe(age) {
 
 var age = cafe(20);
 console.log(age);
+
