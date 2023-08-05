@@ -41,4 +41,3 @@ function newSentence() {
         var numbers = 20;
     }
 }
-
