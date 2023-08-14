@@ -23,6 +23,7 @@ cube(27);
 
 //////////////////// RETURN KEYWORD ////////////////////
 
+
 function square(number) {
     return (number ** 2);
 }
