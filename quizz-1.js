@@ -30,3 +30,4 @@ switch (true) {
         console.log('Nancy has the highest grade of them all', nancyGrade);
         break;
 }
+
