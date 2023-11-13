@@ -6,4 +6,3 @@ for (var a = 3; a <= 100; a = a + 10) {
         console.log(b);
     }
 }
-
