@@ -1,6 +1,5 @@
 //////////////////  VARIABLES IN JAVASCRPIT   /////////////////////
 
-
 //// VAR
 
 var number = 20;
